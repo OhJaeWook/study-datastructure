@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{9F132DA6-57BA-4B73-8702-DCC6F6A60C09}</ProjectGuid>
     <RootNamespace>workspacestudy</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -120,6 +120,8 @@
     <Text Include="input_test.txt" />
     <Text Include="input_[H1907] 의자 제공하기.txt" />
     <Text Include="testcase_input.txt" />
+    <Text Include="input.txt" />
+    <Text Include="input_두더지.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="heap.cpp">
@@ -155,7 +157,13 @@
     <ClCompile Include="user.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="[H1907] 의자 제공하기.cpp" />
+    <ClCompile Include="[dfs] connect processor.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="[dfs] 두더지.cpp" />
+    <ClCompile Include="[H1907] 의자 제공하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="[MH1907] 촛불 이벤트.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -165,7 +173,9 @@
     <ClCompile Include="세젤예impl.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="프로세스연결하기_답안.cpp" />
+    <ClCompile Include="프로세스연결하기_답안.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

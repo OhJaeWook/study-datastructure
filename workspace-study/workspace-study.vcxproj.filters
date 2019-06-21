@@ -27,6 +27,12 @@
     <Text Include="input_[H1907] 의자 제공하기.txt">
       <Filter>리소스 파일</Filter>
     </Text>
+    <Text Include="input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input_두더지.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linkedlist with hash.cpp">
@@ -75,6 +81,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="프로세스연결하기_답안.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[dfs] 두더지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[dfs] connect processor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
