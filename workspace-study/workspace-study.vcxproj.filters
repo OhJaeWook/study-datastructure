@@ -89,5 +89,8 @@
     <ClCompile Include="[dfs] connect processor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6월_22일 최저가 탐색 우선순위 삽입정렬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

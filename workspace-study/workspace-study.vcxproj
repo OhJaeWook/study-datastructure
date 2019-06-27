@@ -124,6 +124,7 @@
     <Text Include="input_두더지.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="6월_22일 최저가 탐색 우선순위 삽입정렬.cpp" />
     <ClCompile Include="heap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -160,7 +161,10 @@
     <ClCompile Include="[dfs] connect processor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="[dfs] 두더지.cpp" />
+    <ClCompile Include="[dfs] 두더지.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="[H1907] 의자 제공하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
