@@ -172,6 +172,34 @@ int cancel(int bid, int cday) {
 
 int seach(int opt, int cday, int night, int y, int x, int top[5]) {
 
+	if (opt == 0) {
+
+
+
+
+
+
+
+	}
+	else if(opt == 1) {
+		// y, x 중심으로 pool 생성
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
 	return 1;
 }
 
