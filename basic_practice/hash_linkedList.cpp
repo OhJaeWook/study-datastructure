@@ -103,11 +103,9 @@ void find(char *key, int userId) {
 	cout << "Not found"<<endl;
 }
 
-// hashTable 은 메모리를 가지고 있는게 구현하기 편하다
-// 메모리가 중복으로 되는데
-// hashTable 은 포인터로 해서 가지고 있고 Node를 다들 정적메모리할당시켜서
-// 한개씩 연결하면서 
-
+// hashTable 은 메모리를 가지고 있는게 구현하기 편한줄 알았는데 전혀 아니다.
+// 메모리가 중복으로 되고 구현도 지저분해진다.
+// hashTable 은 포인터로 해서 가지고 있고 Node를 다들 정적메모리할당시켜 한개씩 연결하면 끝
 
 int main() {
 
